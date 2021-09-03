@@ -1,0 +1,100 @@
+body {
+background-color: default;
+background-image: url('Used Images/yoann-siloine-_T4w3JDm6ug-unsplash.jpg'); /* note the 'quotes' around the file name */
+background-position: center ;   /* vertical center, horizontal right */
+background-repeat: repeat;
+background-attachment: scroll;
+background-image: stretch
+text-align: center;   /*scroll */
+}
+
+body.williambayreuthworks {
+background-color: default;
+background-image: url('Used Images/reinaldo-kevin-w_FKInL9SHM-unsplash.jpg'); /* note the 'quotes' around the file name */
+height:60px;
+padding:200px 1100px;
+margin:100px;
+background size: contain;   /* vertical center, horizontal right */
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-image: cover;   /*scroll */
+}
+
+body.albertderaworks {
+background-color: default;
+background-image: url('Used Images/albert-dera-ILip77SbmOE-unsplash.jpg'); /* note the 'quotes' around the file name */
+height: 60px;
+padding:200px 100px;
+margin:100px ;
+background-size: contain;  /* vertical center, horizontal right */
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-image: cover;
+}
+
+body.aliyahyaworks {
+background-color: default;
+background-image: url('Used Images/ali-yahya-w7XZZM8aC-s-unsplash.jpg'); /* note the 'quotes' around the file name */
+height: 60px;
+padding:200px 100px;
+margin:100px ;
+background-size: contain;  /* vertical center, horizontal right */
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-image: cover;
+}
+
+
+h1 {
+text-align: center;
+margin-right: 400;
+background-image: url('Used Images/paul-gaudriault-cwy9yVBBPxg-unsplash');
+color:maroon;
+font-size:20pt;
+padding: 10px 10px 10px 10px;   /* top-right-bottom-left */
+background-color: white;
+border-style: groove double;
+border-color: blue;
+border-width: 10px;
+}
+h2 {
+text-align: center;
+margin-right: 300;
+background-image: url('Used Images/yoann-siloine-_T4w3JDm6ug-unsplash');
+color:red;
+font-size:20pt;
+padding: 5px 10px 5px 10px;   /* top-right-bottom-left */
+background-color: black;
+border-style: groove double;
+border-color: orange;
+border-width: 12px;
+}
+
+h3 {
+text-align: left;
+margin-right: 0;
+color:red;
+font-size:15pt;  /* top-right-bottom-left */
+background-color: transparent;
+border-style: groove ;
+border-color: transparent;
+border-width: 12px;
+}
+
+a:link     {color:green}
+a:visited  {color:red}
+a:hover    {color:black}
+a:active   {color:blue}
+
+/* Navigation */
+
+#navigation ul {
+margin: 0;   /* removes indent IE and Opera */
+padding: 0;   /* removes indent Mozilla and NN7 */
+list-style-type: none;   /* turns off display of bullet */
+}
+#navigation li { display: inline; }
+
+/* Classes used by all html elements */
+
+/* Ids */
